@@ -1,0 +1,21 @@
+.img {
+    width: 200px;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
