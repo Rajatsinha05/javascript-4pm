@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
+    <div>
+      <a href="./pages/like.html">like</a>
+    </div>
     <form id="product">
       <input type="text" id="title" placeholder="title" />
       <input type="number" name="" id="price" placeholder="price" />
@@ -18,8 +22,16 @@
       </select>
       <input type="submit" value="create" />
     </form>
-    <hr>
+    <hr />
+
+    <button id="lth">Low To High</button>
+    <button id="htl">High To Low</button>
+    <button id="kids">kids</button>
+    <button id="women">women</button>
+    <button id="men">men</button>
+    <button id="all">all</button>
+    <input type="search" placeholder="search" id="search">
     <div id="productList"></div>
   </body>
-  <script src="./index.js"></script>
+  <script src="./javascript/index.js"></script>
 </html>

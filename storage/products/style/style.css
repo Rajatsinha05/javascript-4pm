@@ -1,0 +1,15 @@
+#productList div img {
+    width: 150px;
+    height: 150px;
+}
+
+#productList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+#productList div {
+    margin: 10px;
+    padding: 10px;
+}
