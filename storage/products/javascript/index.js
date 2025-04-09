@@ -10,28 +10,23 @@ const isExists = (id, data) => {
   for (let i = 0; i < data.length; i++) {
     if (data[i].id == id) {
       return {
-        status:true,
-        index:i
+        status: true,
+        index: i,
       };
     }
   }
   return false;
 };
-const addToCart = (data) => {
-  // data.qty=1
-  if (isExists(data.id, cart)) {
-    console.log(data, cart, "exists");
+const addToCart = (product) => {
+  let find = isExists(product.id, cart);
 
-    // cart.push({ ...data, qty: data.qty + 1 });
-    // cart[index].qty+=1
+  if (find) {
+    cart[find.index].qty += 1;
   } else {
-    console.log(data, cart, "not exists");
-    cart.push({ ...data, qty: 1 });
+    cart.push({ ...product, qty: 1 });
   }
   localStorage.setItem("cart", JSON.stringify(cart));
-  // console.log(cart);
 };
-
 const uiMaker = (products) => {
   document.getElementById("productList").innerHTML = "";
   products.map((product, index) => {
