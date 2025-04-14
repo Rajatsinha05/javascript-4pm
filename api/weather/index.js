@@ -74,3 +74,21 @@ document.getElementById("search").addEventListener("keypress", (e) => {
     getWeather(cityName);
   }
 });
+const getWeatherByLocation = async (lat, long) => {
+  let req = await fetch(
+    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=b4c426c91009e3429c4af53c61fd6e9c&units=metric`
+  );
+  let res = await req.json();
+  console.log(res);
+  uiMaker(res);
+};
+const getLocation = () => {
+  navigator.geolocation.getCurrentPosition((pos) => {
+    console.log(pos.coords);
+    const lat = pos.coords.latitude;
+    const long = pos.coords.longitude;
+    getWeatherByLocation(lat, long);
+  });
+};
+
+getLocation();
