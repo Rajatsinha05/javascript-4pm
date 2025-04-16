@@ -8,136 +8,22 @@
   ],
   "products": [
     {
-      "id": "d1c9",
-      "title": "test",
-      "price": "435",
+      "title": "react",
+      "price": "455",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCrBvdXhrhPLiPnCEFTqgedRdn8CZ9vpPuPg&usqp=CAU",
+      "id": "83d2"
+    },
+    {
+      "id": "0521",
+      "title": "javascript",
+      "price": "78897",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70&crop=false"
     },
     {
-      "id": "7f62",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "11bf",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "9a17",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "1a91",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "2c7e",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "f6ad",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "2a71",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "bf84",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "7a7b",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "b7c9",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "7abd",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "8da2",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "86d6",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "276e",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "8a9a",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "2201",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "4d2f",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "9bd0",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "c78b",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "7c52",
-      "title": "",
-      "price": "",
-      "img": ""
-    },
-    {
-      "id": "05d2",
-      "title": "",
-      "price": "",
-      "img": ""
+      "id": "d425",
+      "title": "node",
+      "price": "435",
+      "img": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
     }
   ]
 }
