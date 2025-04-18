@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "a5fb",
+      "name": "mongodb",
+      "email": "nodejs@gmail.com",
+      "password": "node"
+    },
+    {
+      "id": "391d",
+      "name": "mongodb",
+      "email": "testing@gmail.com",
+      "password": "12345"
+    }
+  ]
+}
