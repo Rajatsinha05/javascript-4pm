@@ -1,6 +1,6 @@
 import { api } from "../config/api.js";
 
-export const productMethods = {
+export const CartMethods = {
   getAll: async () => {
     let req = await fetch(api.carts);
     let res = await req.json();
@@ -30,8 +30,12 @@ export const productMethods = {
     });
   },
   getById: async (id) => {
-    let req = await fetch(`${api.carts}/${id}`);
-    let res = await req.json();
-    return res;
+    try {
+      let req = await fetch(`${api.carts}/${id}`);
+      let res = await req.json();
+      return res;
+    } catch (error) {
+      return false;
+    }
   },
 };
